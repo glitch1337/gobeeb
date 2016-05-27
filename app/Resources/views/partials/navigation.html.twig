@@ -1,0 +1,13 @@
+<ul>
+    {%  if show_prev is defined and show_prev == true %}
+    <li><a href="{{ path('prev_show') }}">Previously</a></li>
+    {% endif %}
+
+    {%  if show_current is defined and show_current == true %}
+    <li><a href="{{ path('live_show') }}">Now Showing</a></li>
+    {% endif %}
+
+    {%  if show_next is defined and show_next == true %}
+    <li><a href="{{ path('next_show') }}">Up Next</a></li>
+    {% endif %}
+</ul>

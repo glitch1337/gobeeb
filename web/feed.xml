@@ -1,0 +1,189 @@
+<rss version="2.0">
+    <!-- Produced by the bleb.org TV system -->
+    <!-- ([0-9]{2}<hour>)([0-9]{2}<minute>) : ([\w\s\d]+<title>) -->
+    <channel>
+        <ttl>360</ttl>
+        <title>bbc1 Listings</title>
+        <item>
+            <title>0600 : Breakfast</title>
+            <description>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S]
+                Including regional news at 25 and 55 minutes past each hour.
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>0915 : Council House Crackdown</title>
+            <description>4/10. Reality series following housing fraud investigators. Here, they are joined by the police
+                to reclaim a flat which is no longer occupied by the official tenant. Also in HD. [AD,S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>1000 : Homes Under the Hammer</title>
+            <description>Property renovation series. Will a terraced house in Croydon, a semi in the Welsh village of
+                Maerdy and a former barber's shop in Sutton Coldfield prove to be good investments? Also in HD. [S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>1100 : Family Finders</title>
+            <description>4/15. Documentary series. Three half-sisters who were placed separately into care and grew up
+                unaware of each other's existence are finally reunited. Also in HD. [S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>1145 : Break-in Britain - The Crackdown</title>
+            <description>4/15. Caught on Camera: A look at burglaries in the UK. A brazen burglar uses his bicycle as a
+                stepladder to break into the home of a blind man in Leeds. Also in HD. [S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>1215 : Bargain Hunt</title>
+            <description>Antiques challenge. The teams are in Sawbridgeworth, Herts, with experts Charlie Ross and
+                Natasha Raskin. Tim Wonnacott finds a collection of unusual silver items. Also in HD. [AD,S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>1300 : BBC News at One</title>
+            <description>The latest national and international news stories from the BBC News team, followed by weather.
+                Also in HD. [S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>1330 : BBC London News</title>
+            <description>The latest news, sport and weather from London. [S]</description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>1345 : Doctors</title>
+            <description>Drama series set in a health centre. Ayesha grows concerned for patient Jenna, who seems to
+                fall victim to a lot of mishaps which can't be easily explained. Also in HD. [AD,S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>1415 : For What It's Worth</title>
+            <description>4/23. Antiques quiz show hosted by Fern Britton. Antiques expert Anita Manning assists Fern as
+                the three teams compete for the prize. Also in HD. [S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>1500 : Escape to the Country</title>
+            <description>Denise Nurse is property-shopping in rural Devon with one born-and-bred Londoner and her dog.
+                While in the county, Denise heads to the coast to taste a unique crab variety. Also in HD. [AD,S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>1545 : Chelsea Flower Show</title>
+            <description>9/15. Nicki Chapman and James Wong take a celebratory look at the small gardens. Also in HD.
+                [S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>1630 : Flog It!</title>
+            <description>Antiques series. Paul Martin presents from Sandon Hall in Staffordshire, with experts Christina
+                Trevanion and Charles Hanson. Also in HD. [S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>1715 : Pointless</title>
+            <description>Quiz in which contestants try to score as few points as possible by plumbing the depths of
+                their general knowledge to come up with the answers no-one else can think of. Also in HD. [S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>1800 : BBC News at Six</title>
+            <description>The latest national and international news stories from the BBC News team, followed by weather.
+                Also in HD. [S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>1830 : BBC London News</title>
+            <description>The latest news, sport and weather from London. [S]</description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>1900 : The One Show</title>
+            <description>If it's got Britain talking then it will get talked about on The One Show. Presented by Matt
+                Baker and Alex Jones. Also in HD. [S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>1930 : EastEnders</title>
+            <description>Ian reels from his latest discovery, and things continue to go downhill. Sharon turns to Linda
+                for support. Also in HD. [AD,S] Then BBC News.
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>2000 : How Should I Vote? - The EU Debate</title>
+            <description>Live from Glasgow, Victoria Derbyshire hosts a debate on the issues that matter to younger
+                voters ahead of the June referendum on whether or not Britain should remain in the EU. Also in HD. [S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>2100 : The Truth About Alcohol</title>
+            <description>A&amp;E doctor Javid Abdelmoneim is on a mission to find out the truth about alcohol, including
+                why the government cut the recommended weekly limit for men by a third in January. Also in HD. [AD,S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>2200 : BBC News at Ten</title>
+            <description>The latest national and international news, with reports from BBC correspondents worldwide.
+                Also in HD. [S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>2230 : BBC London News</title>
+            <description>The latest news, sport and weather from London. [S] Followed by national weather.</description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>2245 : Question Time</title>
+            <description>David Dimbleby presents topical debate from Ipswich. On the panel are Ed Miliband, David Davis,
+                Caroline Lucas, Dreda Say Mitchell and Steve Hilton. Also in HD. [S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>2345 : This Week</title>
+            <description>Andrew Neil reviews the political week with Nick Clegg, Michael Portillo and Jess Phillips on
+                the big red sofas. Plus guests Francis Boulle, Helen Lewis and Brian Blessed. Also in HD. [S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>0030 : Weather for the Week Ahead</title>
+            <description>Detailed weather forecast. Also in HD. [S]</description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>0035 : Joins BBC News</title>
+            <description>BBC One joins the BBC's rolling news channel for a night of news, with bulletins on the hour
+                and the headlines every 15 minutes. Also in HD. [S]
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+        <item>
+            <title>0600 : Breakfast</title>
+            <description>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S]
+                Including regional news at 25 and 55 minutes past each hour.
+            </description>
+            <link>http://tv.bleb.org/</link>
+        </item>
+    </channel>
+</rss>
