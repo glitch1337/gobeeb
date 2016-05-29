@@ -134,6 +134,7 @@ class Feed
             'title' => $title,
             'description' => $description,
             'durationInMins' => (($end - $start) / 60) . 'mins',
+            'refresh' => $end - time(),
             'live' => ($now >= $start && $now <= $end)
         ]);
     }

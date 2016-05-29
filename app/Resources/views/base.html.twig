@@ -5,7 +5,9 @@
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
-
+        {%  if refresh is defined %}
+        <meta http-equiv="refresh" content="{{ refresh }}">
+        {% endif %}
     </head>
     <body>
         {% block body %}{% endblock %}
