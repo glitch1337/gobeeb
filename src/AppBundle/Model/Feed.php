@@ -5,9 +5,8 @@ use GuzzleHttp\Client;
 
 /**
  * Created by PhpStorm.
- * User: toby
+ * User: Toby Liddicoat
  * Date: 27/05/2016
- * Time: 13:04
  */
 class Feed
 {
@@ -15,9 +14,9 @@ class Feed
 
     /**
      * [
-     *   'start' => 'Y-m-d H:i',
-     *   'end' => 'Y-m-d H:i',
-     *   'duration' => @integer
+     *   'start' => @integer,
+     *   'end' => @integer,
+     *   'duration' => @string,
      *   'title' => @string,
      *   'description' => @string
      * ]
@@ -40,12 +39,19 @@ class Feed
      */
     private $titleExpression = '/(?<hour>[0-9]{2})(?<minute>[0-9]{2}) : (?<title>[\w\W]+)/iu';
 
+    /**
+     * @return mixed
+     */
     public function __construct($source = null)
     {
         $this->source = $source;
         $this->current_date = date('Y-m-d');
     }
 
+    /**
+     * @return $this
+     * @throws \Exception
+     */
     public function load()
     {
         if (!isset($this->source))
@@ -74,6 +80,10 @@ class Feed
         return $this;
     }
 
+    /**
+     * @param \DOMElement $item
+     * @param \DOMElement|null $next
+     */
     protected function parseItem(\DOMElement $item, \DOMElement $next = null)
     {
         $start = null;
@@ -123,10 +133,14 @@ class Feed
             'duration' => $duration,
             'title' => $title,
             'description' => $description,
+            'durationInMins' => (($end - $start) / 60) . 'mins',
             'live' => ($now >= $start && $now <= $end)
         ]);
     }
 
+    /**
+     * @return mixed
+     */
     public function getLive()
     {
         $scheduleSize = count($this->schedule);
@@ -138,6 +152,9 @@ class Feed
         }
     }
 
+    /**
+     * @return mixed
+     */
     public function getPrevious()
     {
         $this->getLive();
@@ -146,6 +163,9 @@ class Feed
         }
     }
 
+    /**
+     * @return mixed
+     */
     public function getNext()
     {
         $this->getLive();
